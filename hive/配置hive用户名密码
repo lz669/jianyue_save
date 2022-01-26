@@ -71,7 +71,7 @@ Driver: Hive JDBC (version 1.1.0-cdh5.14.4)
 Transaction isolation: TRANSACTION_REPEATABLE_READ
 ```
 
-注意这里设置的用户要求对 inode="/tmp/hive" 有执行权限，否则会出现下列问题：
+注意这里设置的用户要求对 inode="/tmp/hive" 有执行权限，否则会出现下列问题1：
 
 ```
 Connecting to jdbc:hive2://localhost:10000/default
